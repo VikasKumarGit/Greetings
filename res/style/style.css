@@ -3,6 +3,10 @@
     font-family: userName;
     src: url(/res/font/Yeon_Sung/YeonSung-Regular.ttf);
 }
+@font-face {
+    font-family: font;
+    src: url(/res/font/Yeon_Sung/Baloo2-VariableFont_wght.ttf);
+}
 
 *{
     margin: 0;
@@ -15,7 +19,7 @@ h1{
     color: white
 }
 span{
-    font-family: userName;
+    font-family: font;
     font-size: 55px;
     color: black;
 }
