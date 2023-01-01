@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
-@font-face {
-    font-family: userName;
-    src: url(/res/font/Yeon_Sung/YeonSung-Regular.ttf);
-}
-@font-face {
-    font-family: font;
-    src: url(/res/font/Yeon_Sung/Baloo2-VariableFont_wght.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Yeon+Sung&display=swap');
 
 *{
     margin: 0;
@@ -15,11 +8,11 @@
 }
 
 h1{
-    font-family: userName;
+    font-family: 'Yeon Sung', cursive;
     color: white
 }
 span{
-    font-family: font;
+    font-family: 'Yeon Sung', cursive;
     font-size: 55px;
     color: black;
 }
